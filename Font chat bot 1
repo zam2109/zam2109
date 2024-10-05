@@ -1,0 +1,13 @@
+-- main.lua
+function love.load()
+    -- Load the new font
+    font = love.graphics.newFont("GreatVibes-Regular.ttf", 48) -- Tải font với kích thước 48
+    
+    -- Set the font to be used by the text
+    love.graphics.setFont(font)
+end
+
+function love.draw()
+    love.graphics.setColor(0.2, 0.2, 0.2)  -- Đặt màu sắc cho văn bản
+    love.graphics.print("Xin chào, đây là một ví dụ về font chữ script!", 100, 100)
+end
