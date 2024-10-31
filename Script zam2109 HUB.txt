@@ -2520,20 +2520,20 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Sau Phiên Bản Đang Thử Nghiệm<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Phiên Bản Đang Thử Nghiệm<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red>Tính Năng Sẽ Được Cập Nhật Nhiều Hơn Nữa!!!!!<Color=/>"):Display()
     wait(.14)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Subscribe cho zam với nha link https://www.youtube.com/@zam2109-Roblox!<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia disocrd để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia disocrd https://discord.gg/3f6SUbGneC để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Channel : Mario <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Channel : zam2109 <Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Mario Hub", HidePremium = false, IntroText = "Mario Library", SaveConfig = true, ConfigFolder = "Mario Hub"})
+local Window = OrionLib:MakeWindow({Name = "zam2109 HUB", HidePremium = false, IntroText = "zam2109 Library", SaveConfig = true, ConfigFolder = "zam2109 HUB"})
 
 OrionLib:MakeNotification({
 	Name = "zam2109 HUB",
@@ -11309,7 +11309,7 @@ spawn(function()
     spawn(function()
         while wait() do
             if _G.Hopfindmoon then
-            if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
+            if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=104218736848020" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=104218736848020" then
                 wait(2.0)
                 OrionLib:MakeNotification({
                     Name = "zam2109 HUB",
@@ -11317,7 +11317,7 @@ spawn(function()
                     Image = "rbxassetid://104218736848020",
                     Time = 5
                 })
-            elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
+            elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=104218736848020" then
                 Hop()
                 OrionLib:MakeNotification({
                     Name = "zam2109 Hub",
@@ -11325,7 +11325,7 @@ spawn(function()
                     Image = "rbxassetid://104218736848020",
                     Time = 5
                 })
-            elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
+            elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=104218736848020" then
                 Hop()
                 OrionLib:MakeNotification({
                     Name = "zam2109 Hub",
@@ -11333,7 +11333,7 @@ spawn(function()
                     Image = "rbxassetid://104218736848020",
                     Time = 5
                 })
-            elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
+            elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=104218736848020" then
                 Hop()
                 OrionLib:MakeNotification({
                     Name = "zam2109 Hub",
